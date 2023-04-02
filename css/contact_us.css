@@ -6,7 +6,6 @@
     padding: 20px;
     background: #b1d6ff;
 }
-
 label {
     font-weight: 700;
     display: inline-block;
@@ -15,30 +14,26 @@ label {
 
 .input-text {
     width: 80%;
+    width: 100%;
     height: 50px;
     margin-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 30px;
 }
-
 select {
     width: 80%;
     height: 50px;
     font-size: 30px;
     margin-bottom: 15px;
 }
-
 textarea {
     width: 80%;
     height: 100px;
     resize: none;
     margin-bottom: 15px;
 }
-
 button {
-    background-color: rgb(16, 131, 112);
-    color: #fff;
     border: 0;
     background: #1c4fbe;
     color: #fff;
@@ -47,12 +42,9 @@ button {
     font-weight: 700;
     cursor: pointer;
 }
-
 button:hover {
-    background-color: rgb(240, 106, 29);
     background: #eeb20e;
 }
-
 .fn {
     text-align: right;
 }
