@@ -50,11 +50,20 @@
         justify-content: center;
         position: relative;
         overflow: hidden;
+
+        >div:first-child {
+            transition-duration: 1s;
+        }
+
         &:hover {
             >div:first-child {
+
                 transform: scale(2);
             }
+
         }
+
+
         .product-discount {
             position: absolute;
             top: 36px;
@@ -73,7 +82,6 @@
     font-size: 5px;
     transform: scale(0.5);
 }
-
 .bg-change {
     margin: 50px auto;
     background: red;
@@ -85,6 +93,7 @@
     justify-content: center;
     transition-property: background;
     transition-duration: 3s;
+    transition-delay: 2s;
 
     &:hover {
         background: yellow;
