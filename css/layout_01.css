@@ -121,10 +121,8 @@ a {
 .slider-dots li:nth-child(2) .slider-dot {
     background:red;
 }
-
 .table {
     width: 90%;
-    margin: auto;
     margin-left: auto;
     margin-right: auto;
     border-spacing: 0;
@@ -148,16 +146,32 @@ a {
 .table tbody tr:nth-child(even) {
     background: red;
 }
-
 .menu-item li {
     margin-right: 20px;
     background: blue;
 }
-
 .menu-item li:last-child {
     margin-right: 0;
 }
 
 .menu-item li:nth-child(7) {
     color: red;
+}
+
+.block {
+    position: relative;
+}
+
+.block::before {
+    content: 'David ';
+}
+
+.block::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: yellow;
+    position: absolute;
+    right: 0;
 }
