@@ -25,6 +25,7 @@ html {
   top: 0;
   left: 0;
   z-index: 2;
+  z-index: 99;
   width: 100%;
 }
 .header .header-content {
@@ -166,14 +167,17 @@ html {
   border-left: solid 100px #1072c2;
   border-right: solid 180px #fff;
 }
+
 .courses {
   height: 100vh;
+  min-height: 100vh;
   background-color: rgb(65, 65, 65);
   background-image: url(../images/process.jpeg);
   background-size: cover;
   position: relative;
   color: #fff;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .courses::before {
   content: "";
