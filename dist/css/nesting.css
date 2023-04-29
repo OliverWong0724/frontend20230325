@@ -1,9 +1,21 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 100px;
+}
+
 #header {
-    background: yellow;
-  }
-  #header:hover {
-    background: blue;
-  }
-  #header .title {
-    color: red;
-  }/*# sourceMappingURL=nesting.css.map */
+  background: yellow;
+}
+#header:hover {
+  background: blue;
+}
+#header .title {
+  color: red;
+}
+#header .title .content {
+  color: yellow;
+}/*# sourceMappingURL=nesting.css.map */
