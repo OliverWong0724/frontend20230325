@@ -5,23 +5,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 ul {
     list-style-type: none;
 }
-
 .title, .type {
     color: #5C6BC0;
     text-align: center;
     margin-bottom: 20px;
 }
-
 .accordion {
     width: 600px;
     background: #dedede;
     margin:auto;
 }
-
 .accordion-title {
     display: flex;
     justify-content: space-between;
@@ -34,12 +30,23 @@ ul {
     font-family: 'Courier New', Courier, monospace;
     cursor: pointer;
 }
-
 .accordion-title:hover {
     background: rgb(22, 142, 179);
 }
-
 .accordion-content {
     padding: 15px;
+    display: none;
+    background: #c1d4ff;
+}
+
+.accordion-switch:checked + .accordion-title {
+    color: red;
+}
+
+.accordion-switch:checked ~ .accordion-content {
+    display: block;
+}
+
+.accordion-icon-close {
     display: none;
 }
