@@ -60,7 +60,11 @@
     left: 0;
     text-align: center;
     z-index: 99;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .ad-content {
     background: #fff;
     width: 600px;
@@ -69,6 +73,9 @@
     margin: auto;
     margin-top: calc(50% - 100px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .ad-close {
@@ -85,7 +92,6 @@
     top: -10px;
     /* cursor: pointer; */
 }
-
 /* 消除 a 預設樣式 */
 a {
     color: inherit;
