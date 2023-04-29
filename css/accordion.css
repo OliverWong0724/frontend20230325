@@ -41,6 +41,12 @@ ul {
 
 .accordion-switch:checked + .accordion-title {
     color: red;
+.accordion-switch:checked + .accordion-title .accordion-icon-open {
+    display: none;
+}
+
+.accordion-switch:checked + .accordion-title .accordion-icon-close {
+    display: block;
 }
 
 .accordion-switch:checked ~ .accordion-content {
@@ -48,5 +54,9 @@ ul {
 }
 
 .accordion-icon-close {
+    display: none;
+}
+
+.accordion-switch {
     display: none;
 }
