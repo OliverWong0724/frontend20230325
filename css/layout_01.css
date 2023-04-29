@@ -104,16 +104,20 @@ a {
     display: inline-block;
     margin-right: 10px;
 }
-}
-
 .img-resource:hover {
     background: blue;
     color: #fff;
 }
-
 /* error */
 /* .img-resource :hover {
 }
 /* error */
 /* :hover {
 } */
+} */
+
+
+.gender:checked {
+    width: 30px;
+    height: 30px;
+}
