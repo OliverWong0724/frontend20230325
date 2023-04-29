@@ -5,7 +5,6 @@
     height: 300px;
     margin: auto;
 }
-
 .flex-item {
     width: 100px;
     height: 100px;
@@ -14,15 +13,26 @@
     border: 2px solid red;
     display: block;
 }
-
 .dir-r {
     flex-direction: row-reverse;
 }
-
 .dir-c {
     flex-direction: column;
 }
 
 .dir-cr {
     flex-direction: column-reverse;
+}
+
+.large {
+    width: 500px;
+}
+
+.flex-wrap {
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+}
+
+.flex-wrap-r {
+    flex-wrap: wrap-reverse;
 }
