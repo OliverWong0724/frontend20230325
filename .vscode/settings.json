@@ -1,5 +1,4 @@
 {
-    "liveServer.settings.root": "/dist"
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -10,4 +9,5 @@
     ],
     "liveServer.settings.root": "/dist",
     "liveServer.settings.CustomBrowser": "chrome"
+    "liveServer.settings.root": "/dist"    
 }
