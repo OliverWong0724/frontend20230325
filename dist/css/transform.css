@@ -24,7 +24,6 @@ a {
   background-color: red;
   color: yellow;
 }
-
 .sp {
   display: flex;
   margin-top: 150px;
@@ -35,4 +34,9 @@ a {
   justify-content: center;
   align-items: center;
   transform: rotate(45deg);
+}
+.sp > span {
+  transform: rotate(135deg);
+  font-size: 30px;
+  font-weight: 800;
 }/*# sourceMappingURL=transform.css.map */
