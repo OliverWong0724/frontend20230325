@@ -101,7 +101,6 @@ a {
   background: yellow;
   color: red;
 }
-
 .to-run {
   margin: 50px 0;
   width: 100px;
@@ -116,7 +115,6 @@ a {
   top: 0;
   position: relative;
 }
-
 #run-trigger {
   display: none;
 }
@@ -125,6 +123,10 @@ a {
           animation-name: run-m;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
 }
 
 .button {
@@ -137,7 +139,6 @@ a {
 .button:hover {
   background: #e95035;
 }
-
 @-webkit-keyframes run {
   from {
     left: 0;
@@ -148,7 +149,6 @@ a {
     background: red;
   }
 }
-
 @keyframes run {
   from {
     left: 0;
