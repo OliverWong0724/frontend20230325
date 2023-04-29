@@ -64,10 +64,8 @@ body {
         height: 100%;
     }
 }
-
 .join-form{
     height: 100vh;
-    background-color: aqua;
     background-color: rgb(0, 110, 255);
     background-image: url(../images/banner.jpeg);
     background-size:cover;
@@ -92,19 +90,15 @@ body {
             width: 100%;
             display:flex;
             justify-content: space-between;
-            background: rgb(255, 210, 210);
             background-color: rgb(5, 47, 138);
             color: #fff;
             height: 300px;
-
             >div {
                 width: 50%;
                 padding:30px;
             }
-
             .join-form-left-side {
                 position: relative;
-
                 &::before {
                     content: '';
                     position: absolute;
@@ -112,6 +106,25 @@ body {
                     height: calc(100% - 60px);
                     right: 0;
                     top: 30px;
+                }
+            }
+
+            .slogan {
+                font-size: 30px;
+                text-align: center;
+                position: relative;
+                padding-bottom: 10px;
+                margin-bottom: 15px;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: calc(50% - 140px);
+                    width: 0;
+                    height: 3px;
+                    border-left: solid 100px #1072c2;
+                    border-right: solid 180px #fff;
                 }
             }
         }
