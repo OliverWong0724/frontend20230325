@@ -184,7 +184,6 @@ html {
   left: 0;
   background: rgba(0, 0, 0, 0.356);
 }
-
 .flow {
   position: relative;
   z-index: 2;
@@ -217,4 +216,13 @@ html {
   left: calc(50% + 50px);
   background: rgb(0, 60, 255);
   padding: 20px;
+  border-radius: 6px;
+}
+.flow .item .text h4 {
+  margin-bottom: 15px;
+}
+.flow .item:nth-child(even) .text {
+  left: unset;
+  right: calc(50% + 50px);
+  text-align: right;
 }/*# sourceMappingURL=css_layout.css.map */
